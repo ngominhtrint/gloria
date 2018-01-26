@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AA8218EE50EF54D0AC0A79 /* Pods_Gloria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BB3432E39A909209ABDA35 /* Pods_Gloria.framework */; };
+		719B1D3D35B42085DFBEEF20 /* Pods_GloriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE67D4D73562921D78A4CDC3 /* Pods_GloriaTests.framework */; };
+		A22C8723ACA8F8239A1D6E6D /* Pods_GloriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC57B20CACED9F98B030D6E /* Pods_GloriaUITests.framework */; };
 		EBF5DA5E201AC2D900FF631F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */; };
 		EBF5DA60201AC2D900FF631F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5F201AC2D900FF631F /* ViewController.swift */; };
 		EBF5DA63201AC2D900FF631F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5DA61201AC2D900FF631F /* Main.storyboard */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187282DB12B6A1F592E3DA22 /* Pods-Gloria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gloria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gloria/Pods-Gloria.debug.xcconfig"; sourceTree = "<group>"; };
+		34C193AC8DE64EAB711F347E /* Pods-GloriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloriaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GloriaTests/Pods-GloriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38B58A5486F20A2F680BDA5D /* Pods-GloriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloriaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GloriaUITests/Pods-GloriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C51716D2CC15CEDCBE7DB0 /* Pods-GloriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GloriaTests/Pods-GloriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		82BB3432E39A909209ABDA35 /* Pods_Gloria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gloria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B2A6CB17D9F5DAC66DAB62 /* Pods-GloriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GloriaUITests/Pods-GloriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA30C1D1159DA200928F4343 /* Pods-Gloria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gloria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gloria/Pods-Gloria.release.xcconfig"; sourceTree = "<group>"; };
+		DAC57B20CACED9F98B030D6E /* Pods_GloriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GloriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5DA5A201AC2D900FF631F /* Gloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gloria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF5DA5F201AC2D900FF631F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		EBF5DA7C201AC2DA00FF631F /* GloriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5DA80201AC2DA00FF631F /* GloriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriaUITests.swift; sourceTree = "<group>"; };
 		EBF5DA82201AC2DA00FF631F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE67D4D73562921D78A4CDC3 /* Pods_GloriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GloriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AA8218EE50EF54D0AC0A79 /* Pods_Gloria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719B1D3D35B42085DFBEEF20 /* Pods_GloriaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22C8723ACA8F8239A1D6E6D /* Pods_GloriaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58B4CF2DBFFDA3463EEA483B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BB3432E39A909209ABDA35 /* Pods_Gloria.framework */,
+				FE67D4D73562921D78A4CDC3 /* Pods_GloriaTests.framework */,
+				DAC57B20CACED9F98B030D6E /* Pods_GloriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		889D64644478D60422F0E527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187282DB12B6A1F592E3DA22 /* Pods-Gloria.debug.xcconfig */,
+				BA30C1D1159DA200928F4343 /* Pods-Gloria.release.xcconfig */,
+				34C193AC8DE64EAB711F347E /* Pods-GloriaTests.debug.xcconfig */,
+				54C51716D2CC15CEDCBE7DB0 /* Pods-GloriaTests.release.xcconfig */,
+				38B58A5486F20A2F680BDA5D /* Pods-GloriaUITests.debug.xcconfig */,
+				B8B2A6CB17D9F5DAC66DAB62 /* Pods-GloriaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EBF5DA51201AC2D900FF631F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				EBF5DA74201AC2D900FF631F /* GloriaTests */,
 				EBF5DA7F201AC2DA00FF631F /* GloriaUITests */,
 				EBF5DA5B201AC2D900FF631F /* Products */,
+				889D64644478D60422F0E527 /* Pods */,
+				58B4CF2DBFFDA3463EEA483B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBF5DA85201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "Gloria" */;
 			buildPhases = (
+				FFA20E6FF0FD88C86FE66F67 /* [CP] Check Pods Manifest.lock */,
 				EBF5DA56201AC2D900FF631F /* Sources */,
 				EBF5DA57201AC2D900FF631F /* Frameworks */,
 				EBF5DA58201AC2D900FF631F /* Resources */,
+				565718FEAA15ADFBAD4B9F22 /* [CP] Embed Pods Frameworks */,
+				A40CE2103A4E3B9781A352EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBF5DA88201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaTests" */;
 			buildPhases = (
+				7B9BE5460D25B8460C97D661 /* [CP] Check Pods Manifest.lock */,
 				EBF5DA6D201AC2D900FF631F /* Sources */,
 				EBF5DA6E201AC2D900FF631F /* Frameworks */,
 				EBF5DA6F201AC2D900FF631F /* Resources */,
+				50AFA3572DAFEF9E1FDBDB86 /* [CP] Embed Pods Frameworks */,
+				BC72EC356166937315D2A20B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBF5DA8B201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaUITests" */;
 			buildPhases = (
+				AD6CAD21454F4877B265C09E /* [CP] Check Pods Manifest.lock */,
 				EBF5DA78201AC2DA00FF631F /* Sources */,
 				EBF5DA79201AC2DA00FF631F /* Frameworks */,
 				EBF5DA7A201AC2DA00FF631F /* Resources */,
+				B804AEC172EC1356253626FA /* [CP] Embed Pods Frameworks */,
+				8E80A21E9A4F50DB47F943C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50AFA3572DAFEF9E1FDBDB86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GloriaTests/Pods-GloriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565718FEAA15ADFBAD4B9F22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gloria/Pods-Gloria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9BE5460D25B8460C97D661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GloriaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E80A21E9A4F50DB47F943C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GloriaUITests/Pods-GloriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40CE2103A4E3B9781A352EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gloria/Pods-Gloria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6CAD21454F4877B265C09E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GloriaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B804AEC172EC1356253626FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GloriaUITests/Pods-GloriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC72EC356166937315D2A20B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GloriaTests/Pods-GloriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA20E6FF0FD88C86FE66F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gloria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBF5DA56201AC2D900FF631F /* Sources */ = {
@@ -428,6 +624,7 @@
 		};
 		EBF5DA86201AC2DA00FF631F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187282DB12B6A1F592E3DA22 /* Pods-Gloria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +639,7 @@
 		};
 		EBF5DA87201AC2DA00FF631F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA30C1D1159DA200928F4343 /* Pods-Gloria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +654,7 @@
 		};
 		EBF5DA89201AC2DA00FF631F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C193AC8DE64EAB711F347E /* Pods-GloriaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +671,7 @@
 		};
 		EBF5DA8A201AC2DA00FF631F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C51716D2CC15CEDCBE7DB0 /* Pods-GloriaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +688,7 @@
 		};
 		EBF5DA8C201AC2DA00FF631F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B58A5486F20A2F680BDA5D /* Pods-GloriaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +704,7 @@
 		};
 		EBF5DA8D201AC2DA00FF631F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B2A6CB17D9F5DAC66DAB62 /* Pods-GloriaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

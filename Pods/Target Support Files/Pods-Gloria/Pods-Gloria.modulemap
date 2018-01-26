@@ -1,0 +1,6 @@
+framework module Pods_Gloria {
+  umbrella header "Pods-Gloria-umbrella.h"
+
+  export *
+  module * { export * }
+}
