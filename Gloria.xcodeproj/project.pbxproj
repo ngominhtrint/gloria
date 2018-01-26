@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF5DA5E201AC2D900FF631F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */; };
+		EBF5DA60201AC2D900FF631F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5F201AC2D900FF631F /* ViewController.swift */; };
+		EBF5DA63201AC2D900FF631F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5DA61201AC2D900FF631F /* Main.storyboard */; };
+		EBF5DA66201AC2D900FF631F /* Gloria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA64201AC2D900FF631F /* Gloria.xcdatamodeld */; };
+		EBF5DA68201AC2D900FF631F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF5DA67201AC2D900FF631F /* Assets.xcassets */; };
+		EBF5DA6B201AC2D900FF631F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5DA69201AC2D900FF631F /* LaunchScreen.storyboard */; };
+		EBF5DA76201AC2D900FF631F /* GloriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA75201AC2D900FF631F /* GloriaTests.swift */; };
+		EBF5DA81201AC2DA00FF631F /* GloriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA80201AC2DA00FF631F /* GloriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF5DA72201AC2D900FF631F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF5DA52201AC2D900FF631F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF5DA59201AC2D900FF631F;
+			remoteInfo = Gloria;
+		};
+		EBF5DA7D201AC2DA00FF631F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF5DA52201AC2D900FF631F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF5DA59201AC2D900FF631F;
+			remoteInfo = Gloria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF5DA5A201AC2D900FF631F /* Gloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gloria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF5DA5F201AC2D900FF631F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF5DA62201AC2D900FF631F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF5DA65201AC2D900FF631F /* Gloria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gloria.xcdatamodel; sourceTree = "<group>"; };
+		EBF5DA67201AC2D900FF631F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF5DA6A201AC2D900FF631F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF5DA6C201AC2D900FF631F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF5DA71201AC2D900FF631F /* GloriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5DA75201AC2D900FF631F /* GloriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriaTests.swift; sourceTree = "<group>"; };
+		EBF5DA77201AC2D900FF631F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF5DA7C201AC2DA00FF631F /* GloriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5DA80201AC2DA00FF631F /* GloriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriaUITests.swift; sourceTree = "<group>"; };
+		EBF5DA82201AC2DA00FF631F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF5DA57201AC2D900FF631F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA6E201AC2D900FF631F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA79201AC2DA00FF631F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF5DA51201AC2D900FF631F = {
+			isa = PBXGroup;
+			children = (
+				EBF5DA5C201AC2D900FF631F /* Gloria */,
+				EBF5DA74201AC2D900FF631F /* GloriaTests */,
+				EBF5DA7F201AC2DA00FF631F /* GloriaUITests */,
+				EBF5DA5B201AC2D900FF631F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF5DA5B201AC2D900FF631F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5DA5A201AC2D900FF631F /* Gloria.app */,
+				EBF5DA71201AC2D900FF631F /* GloriaTests.xctest */,
+				EBF5DA7C201AC2DA00FF631F /* GloriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF5DA5C201AC2D900FF631F /* Gloria */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */,
+				EBF5DA5F201AC2D900FF631F /* ViewController.swift */,
+				EBF5DA61201AC2D900FF631F /* Main.storyboard */,
+				EBF5DA67201AC2D900FF631F /* Assets.xcassets */,
+				EBF5DA69201AC2D900FF631F /* LaunchScreen.storyboard */,
+				EBF5DA6C201AC2D900FF631F /* Info.plist */,
+				EBF5DA64201AC2D900FF631F /* Gloria.xcdatamodeld */,
+			);
+			path = Gloria;
+			sourceTree = "<group>";
+		};
+		EBF5DA74201AC2D900FF631F /* GloriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5DA75201AC2D900FF631F /* GloriaTests.swift */,
+				EBF5DA77201AC2D900FF631F /* Info.plist */,
+			);
+			path = GloriaTests;
+			sourceTree = "<group>";
+		};
+		EBF5DA7F201AC2DA00FF631F /* GloriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5DA80201AC2DA00FF631F /* GloriaUITests.swift */,
+				EBF5DA82201AC2DA00FF631F /* Info.plist */,
+			);
+			path = GloriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF5DA59201AC2D900FF631F /* Gloria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF5DA85201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "Gloria" */;
+			buildPhases = (
+				EBF5DA56201AC2D900FF631F /* Sources */,
+				EBF5DA57201AC2D900FF631F /* Frameworks */,
+				EBF5DA58201AC2D900FF631F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gloria;
+			productName = Gloria;
+			productReference = EBF5DA5A201AC2D900FF631F /* Gloria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF5DA70201AC2D900FF631F /* GloriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF5DA88201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaTests" */;
+			buildPhases = (
+				EBF5DA6D201AC2D900FF631F /* Sources */,
+				EBF5DA6E201AC2D900FF631F /* Frameworks */,
+				EBF5DA6F201AC2D900FF631F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF5DA73201AC2D900FF631F /* PBXTargetDependency */,
+			);
+			name = GloriaTests;
+			productName = GloriaTests;
+			productReference = EBF5DA71201AC2D900FF631F /* GloriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF5DA7B201AC2DA00FF631F /* GloriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF5DA8B201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaUITests" */;
+			buildPhases = (
+				EBF5DA78201AC2DA00FF631F /* Sources */,
+				EBF5DA79201AC2DA00FF631F /* Frameworks */,
+				EBF5DA7A201AC2DA00FF631F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF5DA7E201AC2DA00FF631F /* PBXTargetDependency */,
+			);
+			name = GloriaUITests;
+			productName = GloriaUITests;
+			productReference = EBF5DA7C201AC2DA00FF631F /* GloriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF5DA52201AC2D900FF631F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TriNgo;
+				TargetAttributes = {
+					EBF5DA59201AC2D900FF631F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EBF5DA70201AC2D900FF631F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBF5DA59201AC2D900FF631F;
+					};
+					EBF5DA7B201AC2DA00FF631F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBF5DA59201AC2D900FF631F;
+					};
+				};
+			};
+			buildConfigurationList = EBF5DA55201AC2D900FF631F /* Build configuration list for PBXProject "Gloria" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF5DA51201AC2D900FF631F;
+			productRefGroup = EBF5DA5B201AC2D900FF631F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF5DA59201AC2D900FF631F /* Gloria */,
+				EBF5DA70201AC2D900FF631F /* GloriaTests */,
+				EBF5DA7B201AC2DA00FF631F /* GloriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF5DA58201AC2D900FF631F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5DA6B201AC2D900FF631F /* LaunchScreen.storyboard in Resources */,
+				EBF5DA68201AC2D900FF631F /* Assets.xcassets in Resources */,
+				EBF5DA63201AC2D900FF631F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA6F201AC2D900FF631F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA7A201AC2DA00FF631F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF5DA56201AC2D900FF631F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5DA60201AC2D900FF631F /* ViewController.swift in Sources */,
+				EBF5DA5E201AC2D900FF631F /* AppDelegate.swift in Sources */,
+				EBF5DA66201AC2D900FF631F /* Gloria.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA6D201AC2D900FF631F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5DA76201AC2D900FF631F /* GloriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5DA78201AC2DA00FF631F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5DA81201AC2DA00FF631F /* GloriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF5DA73201AC2D900FF631F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF5DA59201AC2D900FF631F /* Gloria */;
+			targetProxy = EBF5DA72201AC2D900FF631F /* PBXContainerItemProxy */;
+		};
+		EBF5DA7E201AC2DA00FF631F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF5DA59201AC2D900FF631F /* Gloria */;
+			targetProxy = EBF5DA7D201AC2DA00FF631F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF5DA61201AC2D900FF631F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF5DA62201AC2D900FF631F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF5DA69201AC2D900FF631F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF5DA6A201AC2D900FF631F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF5DA83201AC2DA00FF631F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF5DA84201AC2DA00FF631F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF5DA86201AC2DA00FF631F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gloria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.Gloria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF5DA87201AC2DA00FF631F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gloria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.Gloria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBF5DA89201AC2DA00FF631F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GloriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.GloriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gloria.app/Gloria";
+			};
+			name = Debug;
+		};
+		EBF5DA8A201AC2DA00FF631F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GloriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.GloriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gloria.app/Gloria";
+			};
+			name = Release;
+		};
+		EBF5DA8C201AC2DA00FF631F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GloriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.GloriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gloria;
+			};
+			name = Debug;
+		};
+		EBF5DA8D201AC2DA00FF631F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GloriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringo.gloria.GloriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gloria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF5DA55201AC2D900FF631F /* Build configuration list for PBXProject "Gloria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF5DA83201AC2DA00FF631F /* Debug */,
+				EBF5DA84201AC2DA00FF631F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF5DA85201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "Gloria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF5DA86201AC2DA00FF631F /* Debug */,
+				EBF5DA87201AC2DA00FF631F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF5DA88201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF5DA89201AC2DA00FF631F /* Debug */,
+				EBF5DA8A201AC2DA00FF631F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF5DA8B201AC2DA00FF631F /* Build configuration list for PBXNativeTarget "GloriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF5DA8C201AC2DA00FF631F /* Debug */,
+				EBF5DA8D201AC2DA00FF631F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBF5DA64201AC2D900FF631F /* Gloria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBF5DA65201AC2D900FF631F /* Gloria.xcdatamodel */,
+			);
+			currentVersion = EBF5DA65201AC2D900FF631F /* Gloria.xcdatamodel */;
+			path = Gloria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBF5DA52201AC2D900FF631F /* Project object */;
+}
