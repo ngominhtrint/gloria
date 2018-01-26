@@ -6,6 +6,10 @@ target 'Gloria' do
   use_frameworks!
 
   # Pods for Gloria
+  pod 'Firebase'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
 
   target 'GloriaTests' do
     inherit! :search_paths

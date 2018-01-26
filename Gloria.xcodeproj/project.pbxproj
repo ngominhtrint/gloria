@@ -10,6 +10,12 @@
 		62AA8218EE50EF54D0AC0A79 /* Pods_Gloria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BB3432E39A909209ABDA35 /* Pods_Gloria.framework */; };
 		719B1D3D35B42085DFBEEF20 /* Pods_GloriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE67D4D73562921D78A4CDC3 /* Pods_GloriaTests.framework */; };
 		A22C8723ACA8F8239A1D6E6D /* Pods_GloriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC57B20CACED9F98B030D6E /* Pods_GloriaUITests.framework */; };
+		EBCF3FC4201AC6A3005C8764 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF3FC2201AC6A3005C8764 /* CardCell.swift */; };
+		EBCF3FC5201AC6A3005C8764 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBCF3FC3201AC6A3005C8764 /* CardCell.xib */; };
+		EBCF3FC7201AE6D1005C8764 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBCF3FC6201AE6D1005C8764 /* GoogleService-Info.plist */; };
+		EBCF3FCB201B0D3A005C8764 /* SnapshotParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF3FCA201B0D3A005C8764 /* SnapshotParser.swift */; };
+		EBCF3FCE201B0D68005C8764 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF3FCD201B0D68005C8764 /* Topic.swift */; };
+		EBCF3FD1201B147B005C8764 /* TopicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF3FD0201B147B005C8764 /* TopicService.swift */; };
 		EBF5DA5E201AC2D900FF631F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */; };
 		EBF5DA60201AC2D900FF631F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5DA5F201AC2D900FF631F /* ViewController.swift */; };
 		EBF5DA63201AC2D900FF631F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5DA61201AC2D900FF631F /* Main.storyboard */; };
@@ -46,6 +52,12 @@
 		B8B2A6CB17D9F5DAC66DAB62 /* Pods-GloriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GloriaUITests/Pods-GloriaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA30C1D1159DA200928F4343 /* Pods-Gloria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gloria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gloria/Pods-Gloria.release.xcconfig"; sourceTree = "<group>"; };
 		DAC57B20CACED9F98B030D6E /* Pods_GloriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GloriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCF3FC2201AC6A3005C8764 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		EBCF3FC3201AC6A3005C8764 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		EBCF3FC6201AE6D1005C8764 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBCF3FCA201B0D3A005C8764 /* SnapshotParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotParser.swift; sourceTree = "<group>"; };
+		EBCF3FCD201B0D68005C8764 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		EBCF3FD0201B147B005C8764 /* TopicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicService.swift; sourceTree = "<group>"; };
 		EBF5DA5A201AC2D900FF631F /* Gloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gloria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF5DA5F201AC2D900FF631F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +126,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EBCF3FC8201B0D1E005C8764 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF3FCF201B146A005C8764 /* Service */,
+				EBCF3FCC201B0D51005C8764 /* Models */,
+				EBCF3FC9201B0D28005C8764 /* Base */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EBCF3FC9201B0D28005C8764 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF3FCA201B0D3A005C8764 /* SnapshotParser.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EBCF3FCC201B0D51005C8764 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF3FCD201B0D68005C8764 /* Topic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBCF3FCF201B146A005C8764 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF3FD0201B147B005C8764 /* TopicService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		EBF5DA51201AC2D900FF631F = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +185,8 @@
 		EBF5DA5C201AC2D900FF631F /* Gloria */ = {
 			isa = PBXGroup;
 			children = (
+				EBCF3FC8201B0D1E005C8764 /* Services */,
+				EBCF3FC6201AE6D1005C8764 /* GoogleService-Info.plist */,
 				EBF5DA5D201AC2D900FF631F /* AppDelegate.swift */,
 				EBF5DA5F201AC2D900FF631F /* ViewController.swift */,
 				EBF5DA61201AC2D900FF631F /* Main.storyboard */,
@@ -146,6 +194,8 @@
 				EBF5DA69201AC2D900FF631F /* LaunchScreen.storyboard */,
 				EBF5DA6C201AC2D900FF631F /* Info.plist */,
 				EBF5DA64201AC2D900FF631F /* Gloria.xcdatamodeld */,
+				EBCF3FC2201AC6A3005C8764 /* CardCell.swift */,
+				EBCF3FC3201AC6A3005C8764 /* CardCell.xib */,
 			);
 			path = Gloria;
 			sourceTree = "<group>";
@@ -286,7 +336,9 @@
 			files = (
 				EBF5DA6B201AC2D900FF631F /* LaunchScreen.storyboard in Resources */,
 				EBF5DA68201AC2D900FF631F /* Assets.xcassets in Resources */,
+				EBCF3FC7201AE6D1005C8764 /* GoogleService-Info.plist in Resources */,
 				EBF5DA63201AC2D900FF631F /* Main.storyboard in Resources */,
+				EBCF3FC5201AC6A3005C8764 /* CardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +380,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gloria/Pods-Gloria-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,8 +520,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF5DA60201AC2D900FF631F /* ViewController.swift in Sources */,
+				EBCF3FCE201B0D68005C8764 /* Topic.swift in Sources */,
 				EBF5DA5E201AC2D900FF631F /* AppDelegate.swift in Sources */,
+				EBCF3FCB201B0D3A005C8764 /* SnapshotParser.swift in Sources */,
+				EBCF3FD1201B147B005C8764 /* TopicService.swift in Sources */,
 				EBF5DA66201AC2D900FF631F /* Gloria.xcdatamodeld in Sources */,
+				EBCF3FC4201AC6A3005C8764 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

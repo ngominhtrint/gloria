@@ -10,16 +10,43 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    private let CardCellReuseIdentifier = "CardCellReuseIdentifier"
+    private let dataSources = [UIImage(named: "2_of_clubs"), UIImage(named: "2_of_diamonds"),
+                               UIImage(named: "2_of_hearts"), UIImage(named: "2_of_spades")]
+    private let names = ["2 of clubs", "2 of diamonds", "2 of hearts", "2 of spades"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        registerCell()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func registerCell() {
+        collectionView.register(UINib(nibName: "CardCell", bundle: nil), forCellWithReuseIdentifier: CardCellReuseIdentifier)
     }
-
-
 }
 
+extension ViewController: UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return dataSources.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if let cardCell = collectionView.dequeueReusableCell(withReuseIdentifier: CardCellReuseIdentifier, for: indexPath) as? CardCell {
+            cardCell.image = dataSources[indexPath.item]
+            cardCell.name = names[indexPath.item]
+            return cardCell
+        }
+        return UICollectionViewCell()
+    }
+}
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 375.0, height: view.frame.height)
+    }
+}
